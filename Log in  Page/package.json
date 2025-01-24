@@ -1,0 +1,19 @@
+{
+  "name": "make-a-note",
+  "version": "1.0.0",
+  "description": "With the help of that you can make a note for you.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Mini-Project"
+  },
+  "author": "Souvik Dutta",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

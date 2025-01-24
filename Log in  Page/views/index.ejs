@@ -21,13 +21,13 @@
 
             <% if(files.length > 0){ %>
                 <% files.forEach((val)=>{ %>
-                    <div class="task w-72 px-3 py-4 rounded-md bg-zinc-700 ">
+                    <div class="task min-w-72 px-3 py-4 rounded-md bg-zinc-700 ">
                         <h1 class="text-white text-3xl tracking-tighter"><%= val %></h1>
-                        <a class="cursor-pointer text-blue-500 inline-block mt-3" href="">Read More</a>
+                        <a class="cursor-pointer text-blue-500 inline-block mt-3" href="/file/<%= val %>">Read More</a>
                     </div>
                 <% }) %>
             <% } else{ %>
-                <h3 class="text-zinc-600">No tsaks yet.</h3>
+                <h3 class="text-xl text-zinc-600">No tsaks yet.</h3>
             <% } %>
 
         </div>

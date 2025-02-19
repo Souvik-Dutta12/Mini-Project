@@ -19,7 +19,7 @@ const page = () => {
         <button className='bg-yellow-500 border-none text-xl text-zinc-950 px-3 py-2 rounded-md font-bold m-5'>Add Task</button>
       </form>
     </>
-
+    antialiased min-h-screen w-screen bg-zinc-950 font-mono 
   )
 }
 

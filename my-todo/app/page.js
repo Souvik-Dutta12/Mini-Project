@@ -40,10 +40,10 @@ const page = () => {
   return (
     <>
       <h1 className='text-3xl font-bold text-yellow-500 p-10 text-center'>Souvik's TO-DO</h1>
-      <form onSubmit={submitHandler} className='flex items-center '>
-        <div className='flex items-start w-2/3'>
+      <form onSubmit={submitHandler} className='flex items-center gap-0'>
+        <div className='flex items-start w-2/3 justify-evenly '>
         <input type='text'
-          className='text-xl border-2 border-yellow-500 px-3 py-2 m-5 bg-transparent text-yellow-500 rounded-md focus:outline-none'
+          className='text-xl border-2 w-1/3 border-yellow-500 px-3 py-2 m-5 bg-transparent text-yellow-500 rounded-md focus:outline-none'
           placeholder='Enter Title Here... '
           value={title}
           onChange={(e) => {
